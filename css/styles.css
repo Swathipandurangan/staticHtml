@@ -1,0 +1,204 @@
+body
+{
+	font-family: 'Merriweather', serif;
+	margin: 0;
+}
+.header-section
+{
+	border-bottom: 2px solid darkcyan;
+}
+.navbarNav
+{
+	flex-basis: auto;
+	flex-grow: unset;
+	margin: auto;
+}
+.navbar ul li a:hover
+{
+	border-bottom: 1px solid #fff;
+	color: darkcyan;
+	padding-bottom: 1em;
+}
+.footer-section
+{
+	background-color: #181a1a;
+	margin: 0;
+}
+.register
+{
+	background-color: darkcyan;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+	padding: 2vh;
+}
+.register:hover
+{
+	background-color: #fff;
+	border: 2px solid darkcyan;
+	color: darkcyan;
+}
+.hero-unit-section
+{
+	background-image: url('../images/hero_unit_bg.jpg');
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+.hero-title
+{
+	color: darkkhaki;
+}
+.hero-description
+{
+	padding: 5vh;
+}
+.know-more-button
+{
+	background-color: transparent;
+	border: 1px solid #f4f6f6;
+	border-radius: 4px;
+	box-shadow: inset 0 0 2px 0 darkgrey;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.125rem;
+	font-weight: 500;
+	margin: 0 0 20px;
+	padding: .9375rem 30px 1rem;
+	position: relative;
+	text-align: center;
+	transition: all .15s linear;
+}
+.know-more-button a
+{
+	text-decoration: blink;
+}
+.nav-links
+{
+	align-items: center;
+	display: flex;
+}
+.nav-block ul
+{
+	list-style-type: none;
+}
+.footer-category-title
+{
+	color: darkgrey;
+	font-size: 1em;
+	line-height: 35px;
+}
+.brand-logo
+{
+	height: 108px;
+	margin: 35px;
+	width: 108px;
+}
+.footer-copyright
+{
+	color: #a8b2b1;
+	font-size: .75rem;
+	margin: 0 auto;
+	max-width: 1150px;
+	overflow: hidden;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 100%;
+}
+.footer-copyright hr
+{
+	border: 1px solid #353838;
+	border-top-color: #000;
+	margin: 20px 0;
+}
+.social-links
+{
+	padding: 8vh 2vw;
+}
+.social-links ul
+{
+	align-content: space-between;
+	display: flex;
+}
+.social-links a
+{
+	background-position: 50%;
+	background-repeat: no-repeat;
+	float: left;
+	height: 45px;
+	margin-left: 4px;
+	width: 45px;
+}
+.fb
+{
+	background-image: url(../images/icon_facebook.svg);
+}
+.fb:hover
+{
+	background-image: url(../images/icon_facebook_hover.svg);
+}
+.tw
+{
+	background-image: url(../images/icon_twitter.svg);
+}
+.tw:hover
+{
+	background-image: url(../images/icon_twitter_hover.svg);
+}
+.ig
+{
+	background-image: url(../images/icon_instagram.svg);
+}
+.ig:hover
+{
+	background-image: url(../images/icon_instagram_hover.svg);
+}
+.card
+{
+	width: 20vw;
+}
+.card-section
+{
+	justify-content: center;
+	margin: 10vh 0;
+}
+.flex-container
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.flex-container li
+{
+	margin: 5vh;
+}
+@media(max-width: 875px)
+{
+	.brand-logo
+	{
+		margin: 15px;
+	}
+	.nav-links
+	{
+		align-items: flex-start;
+		flex-direction: column;
+	}
+	.social-links
+	{
+		padding: 0;
+	}
+	.nav-block ul
+	{
+		padding-left: 2vw;
+		padding-top: 0;
+	}
+	.card-section
+	{
+		flex-direction: column;
+		flex-flow: nowrap;
+	}
+}
